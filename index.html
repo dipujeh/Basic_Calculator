@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <!-- ========== style link ========== -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="input-box">
+          <input id="input" type="text" disabled />
+          <input id="result" type="text" disabled />
+        </div>
+        <div class="btn-box">
+          <div class="row" id="row-1">
+            <button class="btn" id="all-clear">AC</button>
+            <button class="btn color-noname">&radic;</button>
+            <button class="btn color-noname">*</button>
+            <button class="btn color-voilet">/</button>
+          </div>
+          <div class="row" id="row-2">
+            <button class="btn color-noname">7</button>
+            <button class="btn color-noname">8</button>
+            <button class="btn color-noname">9</button>
+            <button class="btn color-voilet" >+</button>
+          </div>
+          <div class="row" id="row-3">
+            <button class="btn color-black">4</button>
+            <button class="btn color-black">5</button>
+            <button class="btn color-black">6</button>
+            <button class="btn color-voilet" >-</button>
+          </div>
+          <div class="row" id="row-4">
+            <button class="btn color-black">1</button>
+            <button class="btn color-black">2</button>
+            <button class="btn color-black">3</button>
+            <button class="btn color-voilet"  id="equal-btn">=</button>
+          </div>
+            <div class="row" id="row-5">
+            <button class="btn color-black">.</button>
+            <button class="btn color-black">0</button>
+            <button class="btn color-black">DEL</button>
+            <!-- <button class="btn">-</button> -->
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
